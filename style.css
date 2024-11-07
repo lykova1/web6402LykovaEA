@@ -6,36 +6,35 @@ body {
     background: #fedb70;
 }
 
-h1{
+h1 {
     color: #fedb70;
 }
+
 h2, h3 {
     color: #c70e02;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 
-h2{
+h2 {
     margin-bottom: 2vw;
-    font-size: 4em;
+    font-size: 3em;
     text-align: left;
-    margin-left: 5vw;
 }
 
 p {
     line-height: 1.6;
-    margin-left: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1em;
 }
-
 
 header {
     background-color: #c70e02;
-    padding: 15px 20px;
+    padding: 1vw 5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-
-
 
 .logo {
     display: flex;
@@ -50,8 +49,8 @@ header {
 nav a {
     color: #fedb70;
     text-decoration: none;
-    font-size: 2.5em;
-    margin: 0 15px;
+    font-size: 1.5em;
+    margin: 0 1vw;
     font-weight: bold;
 }
 
@@ -60,63 +59,67 @@ nav a:hover {
 }
 
 main {
-    padding: 20px;
+    padding: 2%;
     text-align: center;
 }
 
 main h2 {
-    margin-top: 2vh;
+    margin-top: 3vh;
 }
 
-.welcome{
-    font-size: 2em;
+.welcome {
+    font-size: 1.5em;
     text-align: left;
-    margin-left: 4vw;
     margin-bottom: 2vh;
 }
-#wide_image{
+
+#wide_image {
     margin-top: 3vw;
     width: 100%;
     border-radius: 10px;
     margin-bottom: 3vw;
 }
 
-.contact{
-    margin-left: 20px;
+.contact {
+    margin-left: 5%;
     color: #c70e02;
 }
 
-.contact:hover{
-    margin-left: 20px;
+.contact:hover {
     color: #c77e6a;
 }
-
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .pizza-item {
     display: inline-block;
-    width: 400px;
-    margin: 15px;
+    width: 20%; 
+    margin: 1%; 
     text-align: left;
     background-color: #f3e4ba;
     border-radius: 10px;
+    box-shadow: rgb(89, 0, 0) 0px 5px 15px;
+    flex-grow: 1;
 }
-
 .pizza-item img {
-    width: 100%; /* Устанавливает ширину в 100% блока */
-    height: 300px; /* Фиксированная высота */
-    object-fit: cover; /* Обрезает изображение, чтобы оно заполнило заданные размеры */
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
     border-radius: 10px;
 }
-
 .button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0.5em 1em;
     background-color: #c70e02;
     color: #fedb70;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-top: 1em;
+    margin-left: 5%;
+    margin-bottom: 1em;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -124,23 +127,23 @@ main h2 {
     background-color: #e5533d;
 }
 
-
 footer {
     background-color: #590000;
     color: #fedb70;
     text-align: center;
-    padding: 20px;
-    font-size: 14px;
+    padding: 2vh;
+    font-size: 0.8em;
+    margin-top: 6vh;
 }
 
 footer .contacts, footer .social {
-    margin-bottom: 10px;
+    margin-bottom: 1vh;
 }
 
 footer a {
     color: #ffe4b5;
     text-decoration: none;
-    margin: 0 5px;
+    margin: 0 0.5vw;
 }
 
 footer a:hover {
@@ -151,22 +154,24 @@ footer a:hover {
     display: flex;
     align-items: start;
     justify-content: space-between;
-    gap: 20px;
-
+    gap: 2%;
+    padding: 2%;
 }
+
 .about-container img {
-    max-width: 40vw;
+    width: 40vw;
     border-radius: 10px;
-    margin-right: 3vw;
+    margin-right: 2vw;
     margin-bottom: 2vw;
     margin-top: 2vw;
+    box-shadow: rgb(89, 0, 0) 0px 5px 15px;
 }
+
 table {
     width: 90%;
-    margin-left: 4vw;
-    margin-right: 4vw;
-    margin-bottom: 6vh;
+    margin: 0 auto 6vh auto;
     border-collapse: collapse;
+    font-size: 1em;
 }
 
 table, th, td {
@@ -174,7 +179,7 @@ table, th, td {
 }
 
 th, td {
-    padding: 10px;
+    padding: 0.5em;
     text-align: left;
 }
 
@@ -183,10 +188,18 @@ th {
     color: #fedb70;
 }
 
-tr:nth-child(even) {
-    background-color: #ffefef;
+.align-right {
+    text-align: right;
 }
+
+.align-center {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
 tr:nth-child(odd) {
     background-color: #ffe4b5;
 }
-
