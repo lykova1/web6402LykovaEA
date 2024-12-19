@@ -1,0 +1,45 @@
+{
+  "/calories": {
+    "get": {
+      "calories": [
+        {
+          "name": "Маргарита",
+          "energy": 235,
+          "protein": 9,
+          "fat": 7,
+          "carbohydrates": 30,
+          "weight": 500
+        },
+        {
+          "name": "Пепперони",
+          "energy": 257,
+          "protein": 10,
+          "fat": 9,
+          "carbohydrates": 30,
+          "weight": 570
+        },
+        {
+          "name": "4 сыра",
+          "energy": 292,
+          "protein": 10,
+          "fat": 10,
+          "carbohydrates": 36,
+          "weight": 530
+        },
+        {
+          "name": "Мясная",
+          "energy": 257,
+          "protein": 11,
+          "fat": 9,
+          "carbohydrates": 30,
+          "weight": 580
+        }
+      ]
+    }
+  },
+  "/messages": {
+    "post": {
+      "data": []
+    }
+  }
+}
