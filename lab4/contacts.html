@@ -24,20 +24,33 @@
 <main>
     <div class="about-container">
         <div class="text-content">
-        <h2>Свяжитесь с нами</h2>
+            <h2>Свяжитесь с нами</h2>
             <div class="welcome">
                 <p>Заходите в гости или заказывайте пиццу на дом по телефону.</p>
                 <p>Мы находимся по адресу: г. Самара, ул. Вкусная, дом 7</p>
                 <p>Телефон: +7 123 456 7890</p>
                 <p>Следите за нами в социальных сетях:</p>
-                <a class = "contact" href="https://www.instagram.com/lapizza">Instagram</a>
-                <a class = "contact" href="https://www.vk.com/lapizza">Вконтакте</a>
+                <a class="contact" href="https://www.instagram.com/lapizza">Instagram</a>
+                <a class="contact" href="https://www.vk.com/lapizza">Вконтакте</a>
             </div>
         </div>
-        <img src="images/pizza_v_pechi.jpg" alt="Пицца в печи">
+        <div>
+            <form id="contactForm">
+                <h3>Оставьте свои данные, мы свяжемся с вами в течение 5 минут</h3>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required novalidate>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required novalidate>
+
+                <label for="phone">Ваш телефон:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="+79991234567" novalidate>
+                
+                <button type="submit">Отправить</button>
+            </form>            
+        </div>
     </div>
 </main>
-
+<script src="contact-form.js"></script>
 <!-- Футер -->
 <footer>
     <div class="social">
@@ -46,5 +59,6 @@
     </div>
     <p>&copy; 2024 La Pizza. Все права защищены.</p>
 </footer>
+
 </body>
 </html>

@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>La Pizza - О нас</title>
+    <title>La Pizza - Калорийность</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,24 +18,34 @@
         <a href="calories.html">Калорийность</a>
         <a href="about.html">О нас</a>
         <a href="contacts.html">Контакты</a>
+
     </nav>
 </header>
 
 <main>
-        <div class="about-container">
-            <div class="text-content">
-                <h2>О нашей пиццерии</h2>
-                <div class="welcome">
-                <p>La Pizza — это семейная пиццерия, работающая с 2020 года.</p>
-                <p>Наша цель — готовить вкусную и свежую пиццу для каждого клиента!</p>
-                </div>
-            </div>
-            <img src="images/large_picceriya-kak-vid-biznesa.jpg" alt="Пиццерия">
-        </div>
-
+    <h2>Калорийность наших пицц (на 100 г)</h2>
+    <table id="caloriesTable">
+        <thead>
+            <tr>
+                <th class="align-right">Название пиццы</th>
+                <th>Энергетическая ценность (ккал)</th>
+                <th class="align-center">Белки (г)</th>
+                <th class="align-center">Жиры (г)</th>
+                <th class="align-center">Углеводы (г)</th>
+                <th>Вес (г)</th>
+            </tr>
+        </thead>
+        <tbody>
+        <script src="calories-loader.js"></script>
+            
+        </tbody>
+    </table>
+    
 </main>
+
 <!-- Футер -->
 <footer>
+
     <div class="social">
         <a href="https://www.instagram.com/lapizza">Instagram</a> |
         <a href="https://www.vk.com/lapizza">Вконтакте</a>
